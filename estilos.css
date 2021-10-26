@@ -1,0 +1,59 @@
+:root {
+    --muy-transparente: 0.15;
+    --transparente: 0.5;
+    --opaco:0.9;
+    --ancho-fuente:750;
+    --ancho-lineas:3;
+    --familia-fuente:sans-serif;
+}
+
+.linea {
+    stroke-width:var(--ancho-lineas);
+    fill: none;
+    opacity:var(--transparente);
+}
+
+.hover {
+    stroke-width:6;
+    fill: none;
+    opacity:var(--opaco);
+}
+
+.textos {
+    font-size: 100%;
+    font-family:var(--familia-fuente);
+    font-weight: bold;
+
+}
+
+.linea-oculta {
+    stroke-width:var(--ancho-lineas);
+    fill: none;
+    opacity:var(--muy-transparente);
+}
+
+.ejeX {
+    color:grey;
+    font-size: 80%;
+    font-family:var(--familia-fuente);
+    font-weight:var(--ancho-fuente);
+}
+
+.leyendas {
+    font-family:var(--familia-fuente);
+    font-weight:var(--ancho-fuente);
+    opacity:var(--transparente);
+}
+
+.leyendas-h {
+    font-family:var(--familia-fuente);
+    font-weight:var(--ancho-fuente);
+    opacity:var(--muy-transparente);
+}
+
+.leyendas-nh {
+    font-family:var(--familia-fuente);
+    font-size: 120%;
+    font-weight:var(--ancho-fuente);
+    opacity:var(--opaco);
+}
